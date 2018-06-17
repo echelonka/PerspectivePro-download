@@ -1,0 +1,23 @@
+h5 {
+    margin: 0 0 60px;
+}
+.container.center {
+    min-height: calc(100vh - 64px - 234px);
+    box-sizing: border-box;
+}
+.btn-large {
+    display: inline-block;
+    width: 200px;
+    margin: 0 15px 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.btn-large svg {
+    margin: 0 10px 0 0;
+    width: 35px;
+    height: 35px;
+    transform: translateY(8px);
+}
+.btn-large svg * {
+    fill: white;
+}
